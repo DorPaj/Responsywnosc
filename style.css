@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+	div.a {
+		width: 100%;
+		background-color: red;
+		height: 300px;
+		float: left;
+	}
+	div.b {
+		width: 100%;
+		background-color: green;
+		height: 300px;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	div.a {
+		width: 50%;
+		background-color: red;
+		height: 300px;
+		float: left;
+	}
+	div.b {
+		width: 50%;
+		background-color: green;
+		height: 300px;
+		float: left;
+	}
+}
